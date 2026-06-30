@@ -35,5 +35,5 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y trivy
 
-      - name: Run Trivy Vulnerability Scan
+      - name: Run Trivy Vulnerability Scan --skip-version-check flag
         run: trivy fs .
