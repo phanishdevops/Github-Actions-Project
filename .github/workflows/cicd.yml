@@ -19,7 +19,7 @@ jobs:
 
       - name: Build with Maven
         run: mvn compile
-             mvn dependency:resolve
+             
 
   security-check:
     runs-on: ubuntu-latest
